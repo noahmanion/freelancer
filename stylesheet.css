@@ -10,29 +10,41 @@ body {
 	background-color: #1C86EE;
 	height: 185px;
 	width: 100%;
+	align: center;
+}
+.noah{
+	
 }
 h1{
 	text-align: center;
 	font-size: 90px;
-	font-family: futura, trebuchet, sans-serif
+	font-family: futura, trebuchet, sans-serif;
 	padding: 0;
 	margin: 0px;
 }
 h2{
 	text-align: center;
 	font-size: 50px;
-	font-family: futura, trebuchet, sans-serif
+	font-family: futura, trebuchet, sans-serif;
 	padding: 0;
 	margin: 0px;
 }
 table.nav{
-	table-layout: none
+	table-layout: none;
 	padding: 0px;
+	width: 200;
 }
 td.nav{
 	display: inline-block;
 	width: 90px;
 	height: 90px;
+}
+#noah{
+	font-family: futura, helvetica sans-serif;
+	font-size: 45px;
+	text-align: center;
+	padding: 0, 0, 0, 0;
+	margin: 0, 0, 0, 0;
 }
 div.header {	
 	height: 80px;

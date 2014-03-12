@@ -1,0 +1,5 @@
+var my_canvas = document.getElementById('canvas')
+var context = my_canvas.getContext('2d')
+context.beginPath()
+context.arc(75,74,35,0,Math.PI)
+context.stroke()

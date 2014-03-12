@@ -1,0 +1,25 @@
+body {
+font-family: Verdana, Geneva, sans-serif;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+ 
+}
+#box{
+background-color: #1C86EE;
+height: 185px;
+width: 100%;
+margin-top: 0;
+font-family: futura, helvetica sans-serif;
+font-size: 72pt;
+text-align: center;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: auto;
+margin-bottom: auto;
+}

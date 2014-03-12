@@ -36,8 +36,15 @@ margin-right: auto;
 margin-left: auto;
 font-family: Verdana, Geneva, sans-serif;
 }
-.container{
-position: relative;
+.sectionheader{
+    font-family: futura, Verdana, sans-serif;
+}
+div#container {
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+align: center;
+
 }
 button:hover{
 background-color: green;

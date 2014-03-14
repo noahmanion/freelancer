@@ -52,7 +52,15 @@ body{
 h1{
 	font-size: 26px;
 	font-weight: bold;
+	font-style: italic;
+	color: blue;
 }
 h2{
 	font-size: 18px;
+}
+div{
+	text-align: center;
+}
+div.contentarea{
+	text-align: right;
 }

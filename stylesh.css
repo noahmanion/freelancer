@@ -4,11 +4,10 @@ margin-left: 0px;
 margin-right: 0px;
 margin-top: 0px;
 margin-bottom: 0px;
- 
 }
 #box{
 background-color: #1C86EE;
-height: 185px;
+height: 285px;
 width: 100%;
 margin-top: 0;
 font-family: futura, helvetica sans-serif;
@@ -23,18 +22,19 @@ margin-right: 0px;
 margin-top: auto;
 margin-bottom: auto;
 }
+
 button{
 height: 100px;
 width: 200px;
 border-style: none;
 background-color: red;
 border-radius: 100px;
-font-size: 18px;
+font-size: 28px;
 text-align: center;
 margin-top: 25px;
 margin-right: auto;
 margin-left: auto;
-font-family: Verdana, Geneva, sans-serif;
+font-family: Futura, Geneva, Verdana sans-serif;
 }
 .sectionheader{
     font-family: futura, Verdana, sans-serif;
@@ -49,11 +49,16 @@ align: center;
 button:hover{
 background-color: green;
 }
- 
+ressection{
+	list-style: none;
+} 
+.position{
+	list-style: none;
+}
 .hide{
 display: none;
-width: 50%;
-font-family: Verdana, Geneva, sans-serif;
+width: 95%;
+font-family: Helvetica, Verdana, Geneva, sans-serif;
 margin-right: auto;
-text-align: center;
+
 }

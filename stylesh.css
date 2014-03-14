@@ -27,7 +27,7 @@ button{
 height: 100px;
 width: 200px;
 border-style: none;
-background-color: red;
+background-color: #1C86EE;
 border-radius: 100px;
 font-size: 28px;
 text-align: center;
@@ -46,19 +46,51 @@ margin-left: auto;
 align: center;
 
 }
-button:hover{
-background-color: green;
+#resumename{
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+	margin-right: auto;
+	margin-left: auto;
 }
-ressection{
+#resume{
+	width: 87%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 16px;
+}
+#about{
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 16px;
+}
+button:hover{
+background-color: #1C86EE;
+opacity: 0.5;
+}
+.ressection{
 	list-style: none;
+	color: #D63E94;
+	font-weight: bolder;
+	font-size: 24px;
+	font-style: underline;
 } 
 .position{
 	list-style: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+.duties{
+	color: black;
+	font-weight: normal;
+	font-family: Verdana, Garamond, sans-serif;
+	font-size: 16px;
 }
 .hide{
 display: none;
 width: 95%;
 font-family: Helvetica, Verdana, Geneva, sans-serif;
 margin-right: auto;
-
 }

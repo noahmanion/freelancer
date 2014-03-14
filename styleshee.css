@@ -49,6 +49,20 @@ table {
 body{
 	color: red;
 }
+#navigation{
+	float: right;
+}
+#navigation li{
+	display: inline-block;
+	padding: 0 6px;
+}
+p{
+	margin-bottom: 12px;
+	margin-right: 12px;
+	margin-top: 12px;
+	margin-left: 12px;
+	text-align: justify;
+}
 h1{
 	font-size: 26px;
 	font-weight: bold;
@@ -62,5 +76,5 @@ div{
 	text-align: center;
 }
 div.contentarea{
-	text-align: right;
+	text-align: left;
 }

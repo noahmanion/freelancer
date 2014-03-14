@@ -23,3 +23,6 @@ margin-right: 0px;
 margin-top: auto;
 margin-bottom: auto;
 }
+canvas{
+	border: 5px, dotted, black;
+}

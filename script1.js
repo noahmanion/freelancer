@@ -6,4 +6,5 @@ var target = $(this).data("target");
 $hide.hide();
 $(target).show();
 })
+
 });

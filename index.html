@@ -5,6 +5,7 @@
 <link rel="stylesheet" type="text/css" href="stylesh.css"/>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="script1.js"></script>
+<script type="text/javascript" src="tumblr.js"></script>
 </head>
 <body>
 	<script>
@@ -18,14 +19,14 @@
 
 </script>
 <header><div id="box">
-	Noah Manion
+	<span id="name">Noah Manion</span>
  
 
 <div id="container">
 <button class="learn-more" data-target="#about">ABOUT</button>
 <button class="learn-more" data-target="#resume">RESUME</button>
 <button class="learn-more" data-target="#social">SOCIAL</button>
-<button class="link" onclick="location.href='http://whatsonyourmindnoah.tumblr.com'">BLOG</button>
+<button class="learn-more" data-target="#blog">BLOG</button>
 </div>
 </div></header> 
 
@@ -86,9 +87,18 @@
 	</ul>	
 </div>
 <div class="hide" id="social">
-	Twitter: @noahmanion<br />
-	<a href="http://www.linkedin.com/pub/noah-manion/35/267/b12">LinkedIn</a><br />
+	<div id="socialcontainer">
+		<a href="https://twitter.com/noahmanion"><img src="twitter-logo-square.png"></a>
+	<a href="http://www.linkedin.com/pub/noah-manion/35/267/b12"><img src="linkedin-logo-square2.png"/a>
 	<a href="http://www.github.com/noahmanion">GitHub</a>
 	</div>
+</div>	
+<div class="hide" id="blog">
+	<div id="tumblrfeed">
+    </div>
+    <div id="about">This is a sampling from my tumblr, the rest is available at <a href="http://nownoahhasa.tumblr.com">nownoahhasa.tumblr.com</a></div>
+</div>	
+<div id="footer">
+</div>
 </body>
 </html>

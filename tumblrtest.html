@@ -1,75 +1,15 @@
-
 <html>
 <head>
-        <meta charset=utf-8 />
         <title></title>
-        <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-       
-        <style>
-                div.posts {
-                        margin-top: 25px;
-                        padding: 5px;
-                }
-                #tumblrfeed {
-                        width: 500px;
-                        height:
-                }
-        </style>
- 
-        <script type="text/javascript">
-                var limit = 12;
-                var url = 'http://whatsonyourmindnoah.tumblr.com';
-               
-                $.getJSON(url+'/api/read/json?num='+limit+'&callback=?', function(data) {
-                        $.each(data.posts, function(i,posts){
-                                if(posts.type == 'video'){
-                                        displayVideoPost(posts);
-                                } else if(posts.type == 'link'){
-                                        displayLinkPost(posts);
-                                } else if(posts.type == 'regular'){
-                                        displayTextPost(posts);
-                                } else if (posts.type == 'photo'){
-                                		displayPhotoPost(posts);
-                                }
-
-                        });
-                });
-               
-                function displayTextPost(posts){
-                        if(posts == null) return;
-                        $('#tumblrfeed').append('<div class="posts"><h1>'+posts['regular-title']+"</h1>");
-                        $('#tumblrfeed').append(posts['regular-body']+'</div>');
-                }
-               
-                function displayLinkPost(posts){
-                        if(posts == null) return;
-                        $('#tumblrfeed').append('<div class="posts"><h1>'+posts['link-text']+"</h1>");
-                        $('#tumblrfeed').append(posts['link-url']);
-                        $('#tumblrfeed').append(posts['link-description']+'</div>');
-                }
-               
-                function displayVideoPost(posts){
-                        if(posts == null) return;
-                        $('#tumblrfeed').append('<div class="posts"><h1>'+posts['video-caption']+"</h1>");
-                        $('#tumblrfeed').append(posts['video-player-250']+'</div>');
-                }
-                function displayPhotoPost(posts){
-                		if(posts == null) return;
-                		$('#tumblrfeed').append('<div class="posts"><h1>'+posts['photo-caption']+"</h1>");
-                		$('#tumblrfeed').append(posts['photo']);
-                		$('#tumblrfeed').append(posts['photo-caption']+'</div>');
-                }
-               
-        </script>
-       
+        <script type="text/javascript" src="http:/whatsonyourmindnoah.tumblr.com/api/read/json"></script>
 </head>
 <body>
-        <div id="tumblrfeed">
-        </div>
-</body>
+        <script type="text/javascript">
+    // The variable "tumblr_api_read" is now set to your tumblr feed.
+    document.write(
+        '<a href="' + tumblr_api_read['posts'][0]['url'] + 
+        '">My most recent Tumblr post</a>'
+    );
+</script>
+</body>        
 </html>
-
-

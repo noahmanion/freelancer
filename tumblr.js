@@ -37,7 +37,7 @@ var limit = 12;
                 function displayPhotoPost(posts){
                 		if(posts == null) return;
                 		$('#tumblrfeed').append('<div class="posts"><h1>'+posts['photo-caption']+"</h1>");
-                		$('#tumblrfeed').append(posts['photo']);
+                		$('#tumblrfeed').append(posts['photo']+'</div>');
                 		$('#tumblrfeed').append(posts['photo-caption']+'</div>');
                 }
                
